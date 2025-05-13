@@ -1,0 +1,29 @@
+{
+  "name": "automacao-blog-agi-playwright",
+  "version": "1.0.0",
+  "description": "Projeto de automação de testes para o Blog do Agi usando Playwright e JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "javascript"
+  ],
+  "author": "Manus Agent",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0", 
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-playwright": "^0.15.0", 
+    "prettier": "^3.0.0"
+  }
+}
+
